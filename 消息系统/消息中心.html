@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>消息中心</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/消息中心/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/消息中心/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u506" class="ax_default box_22">
+        <div id="u506_div" class=""></div>
+      </div>
+
+      <!-- TextBorder (矩形) -->
+      <div id="u507" class="ax_default box_2" data-label="TextBorder">
+        <div id="u507_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u508" class="ax_default box_1">
+        <div id="u508_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u509" class="ax_default _文本段落">
+        <div id="u509_div" class=""></div>
+        <div id="u509_text" class="text ">
+          <p><span>1、消息中心根据消息类型分为：赞、粉丝、评论/回复、系统通知，四种消息类型，进入消息中心页时，初版消息功能默认以信息流的形式展示12个月内的消息，通过分页的形式每次拉取30条，最新的展示在最上方，所有消息仅在服务区保存12个月</span></p><p><span>&nbsp;2、赞：用于展示用户收的赞信息，赞根据用户发布的内容分为，发布评论的赞、回复话题内容的赞</span></p><p><span>&nbsp;     赞的内容展示格式为：XXX（用户头像、昵称）+时间+赞了你的评论/动态+关联的内容，赞内容的</span></p><p><span>&nbsp;&nbsp; &nbsp;&nbsp; 右侧显示该赞关联的评论或者话题回复内容信息，根据用户评论和回复的内容形式不同，区分为：视频+文字、视频、图片+文字、图片、文字五种样式</span></p><p><span>&nbsp;     视频+文字：默认显示视频封面缩略图，点击视频封面缩略图跳转至回复内容详情页并自动定位至改评论处</span></p><p><span>&nbsp;     视频：默认显示视频的封面缩略图，点击视频封面缩略图跳转至回复内容详情页并自动定位至改评论处</span></p><p><span>&nbsp;     图片+文字：默认显示1张图片缩略图，有多张图片的默认取第一张图片进行显示，点击缩略图跳转至回复内容详情页并自动定位至改评论处</span></p><p><span>&nbsp;     图片：默认显示1张图片缩略图，有多张图片的默认取第一张图片进行显示，点击缩略图跳转至回复内容详情页并自动定位至改评论处</span></p><p><span>&nbsp;     文字：显示文字的内容，默认最多显示两行，超出两行以省略号代替</span></p><p><span>&nbsp; 3、评论/回复：用于展示用户收到的评论与回复，按时间进行倒序排序，时间最新的展示在最上方，回复根据用户发布的评</span></p><p><span>&nbsp;&nbsp; &nbsp; 论内容分为针对视频评论的回复、回复话题内容的评论回复，评论为针对话题回复内容的评论。</span></p><p><span>&nbsp;&nbsp; &nbsp; 视频评论被回复，内容展示格式为：XXXX（用户昵称、头像）+回复了你的评论+时间+回复的内容+关联的评论内容，</span></p><p><span>&nbsp;&nbsp; &nbsp; 点击的评论内容跳转至视频播放详情页并自动定位至该条评论信息处。</span></p><p><span>&nbsp;&nbsp; &nbsp; 评论话题内容的评论被回复，内容展示格式为：XXXX（用户昵称、头像）+回复了你的评论+时间+回复的内容+关联的 </span></p><p><span>&nbsp;&nbsp; &nbsp; 评论内容，点击的评论内容跳转至回复话题内容详情页并自动定位至该条评论信息处。</span></p><p><span>&nbsp;&nbsp; &nbsp; 回复话题的内容被评论，内容展示格式为：XXXX（用户昵称、头像）+评论了你的动态+时间+评论的内容+关联的回复</span></p><p><span>&nbsp;&nbsp; &nbsp; 话题内容，点击的回复话题内容跳转至回复话题内容详情页并自动定位至该条评论信息处。</span></p><p><span>&nbsp;4、系统通知</span></p><p><span>&nbsp;      系统通知根据消息内容的类型分为：话题相关消息（创建话题的审核通知、参与话题内容的审核通知、创建话题被回复的通知、关注话题被回复的通知）、提现审核消息、活动推送消息、版本更新消息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u510" class="ax_default _文本段落">
+        <div id="u510_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u511" class="ax_default _二级标题">
+        <div id="u511_div" class=""></div>
+        <div id="u511_text" class="text ">
+          <p><span>需求说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u512" class="ax_default _文本段落">
+        <div id="u512_div" class=""></div>
+        <div id="u512_text" class="text ">
+          <p><span>重要：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u513" class="ax_default box_1">
+        <div id="u513_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u514" class="ax_default box_1">
+        <div id="u514_div" class=""></div>
+        <div id="u514_text" class="text ">
+          <p><span>消息中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (SVG) -->
+      <div id="u515" class="ax_default _图片4">
+        <img id="u515_img" class="img " src="images/消息中心/u515.svg"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u516" class="ax_default image1">
+        <img id="u516_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u517" class="ax_default label">
+        <div id="u517_div" class=""></div>
+        <div id="u517_text" class="text ">
+          <p><span>21:30</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u518" class="ax_default label">
+        <div id="u518_div" class=""></div>
+        <div id="u518_text" class="text ">
+          <p><span>王世盈&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u519" class="ax_default image1">
+        <img id="u519_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u520" class="ax_default label">
+        <div id="u520_div" class=""></div>
+        <div id="u520_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">天前</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u521" class="ax_default label">
+        <div id="u521_div" class=""></div>
+        <div id="u521_text" class="text ">
+          <p><span>王世盈&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u522" class="ax_default image">
+        <img id="u522_img" class="img " src="images/消息中心/u522.jpg"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u523" class="ax_default icon">
+        <img id="u523_img" class="img " src="images/消息中心/u523.png"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u524" class="ax_default image1">
+        <img id="u524_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u525" class="ax_default label">
+        <div id="u525_div" class=""></div>
+        <div id="u525_text" class="text ">
+          <p><span>2017-12-06</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u526" class="ax_default label">
+        <div id="u526_div" class=""></div>
+        <div id="u526_text" class="text ">
+          <p><span>短视频研习社</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u527" class="ax_default label">
+        <div id="u527_div" class=""></div>
+        <div id="u527_text" class="text ">
+          <p><span>赞同，我也学到了！</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u528" class="ax_default image1">
+        <img id="u528_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u529" class="ax_default label">
+        <div id="u529_div" class=""></div>
+        <div id="u529_text" class="text ">
+          <p><span>2017-12-06</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u530" class="ax_default label">
+        <div id="u530_div" class=""></div>
+        <div id="u530_text" class="text ">
+          <p><span>熊宝宝 </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u531" class="ax_default image1">
+        <img id="u531_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u532" class="ax_default label">
+        <div id="u532_div" class=""></div>
+        <div id="u532_text" class="text ">
+          <p><span>2017-12-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u533" class="ax_default label">
+        <div id="u533_div" class=""></div>
+        <div id="u533_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">熊宝宝</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#999999;"> </span><span style="font-family:'ArialMT', 'Arial';color:#999999;"> </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u534" class="ax_default label">
+        <div id="u534_div" class=""></div>
+        <div id="u534_text" class="text ">
+          <p><span>嗯嗯，同意内容很干货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u535" class="ax_default label">
+        <div id="u535_div" class=""></div>
+        <div id="u535_text" class="text ">
+          <p><span>好兔视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u536" class="ax_default image1">
+        <img id="u536_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u537" class="ax_default label">
+        <div id="u537_div" class=""></div>
+        <div id="u537_text" class="text ">
+          <p><span>创建的话题审核未通过</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u538" class="ax_default label">
+        <div id="u538_div" class=""></div>
+        <div id="u538_text" class="text ">
+          <p><span>2017-12-04</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u539" class="ax_default box_21">
+        <div id="u539_div" class=""></div>
+        <div id="u539_text" class="text ">
+          <p><span>&nbsp; #房价真的会跌吗？求业内人士分析？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u540" class="ax_default label">
+        <div id="u540_div" class=""></div>
+        <div id="u540_text" class="text ">
+          <p><span>好兔视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u541" class="ax_default box_21">
+        <div id="u541_div" class=""></div>
+        <div id="u541_text" class="text ">
+          <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; #房价真的会跌吗？求业内人士分析？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u542" class="ax_default image1">
+        <img id="u542_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u543" class="ax_default label">
+        <div id="u543_div" class=""></div>
+        <div id="u543_text" class="text ">
+          <p><span>你关注的话题最近有1人回复</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u544" class="ax_default label">
+        <div id="u544_div" class=""></div>
+        <div id="u544_text" class="text ">
+          <p><span>2017-12-04</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u545" class="ax_default label">
+        <div id="u545_div" class=""></div>
+        <div id="u545_text" class="text ">
+          <p><span>好兔视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u546" class="ax_default box_21">
+        <div id="u546_div" class=""></div>
+        <div id="u546_text" class="text ">
+          <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #房价真的会跌吗？求业内人士分析？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u547" class="ax_default image1">
+        <img id="u547_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u548" class="ax_default label">
+        <div id="u548_div" class=""></div>
+        <div id="u548_text" class="text ">
+          <p><span>短视频研习社&nbsp; 回复了你发布的话题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u549" class="ax_default label">
+        <div id="u549_div" class=""></div>
+        <div id="u549_text" class="text ">
+          <p><span>2017-12-04</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u550" class="ax_default label">
+        <div id="u550_div" class=""></div>
+        <div id="u550_text" class="text ">
+          <p><span>好兔视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u551" class="ax_default image1">
+        <img id="u551_img" class="img " src="images/消息中心/u516.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u552" class="ax_default label">
+        <div id="u552_div" class=""></div>
+        <div id="u552_text" class="text ">
+          <p><span>你的提现申请已审核通过，请去微信钱包查收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u553" class="ax_default label">
+        <div id="u553_div" class=""></div>
+        <div id="u553_text" class="text ">
+          <p><span>2017-12-04</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u554" class="ax_default image">
+        <img id="u554_img" class="img " src="images/消息中心/u522.jpg"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u555" class="ax_default image">
+        <img id="u555_img" class="img " src="images/消息中心/u522.jpg"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u556" class="ax_default icon">
+        <img id="u556_img" class="img " src="images/消息中心/u556.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u557" class="ax_default _文本段落">
+        <div id="u557_div" class=""></div>
+        <div id="u557_text" class="text ">
+          <p><span>赞了你的评论</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u558" class="ax_default box_2">
+        <div id="u558_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u559" class="ax_default label">
+        <div id="u559_div" class=""></div>
+        <div id="u559_text" class="text ">
+          <p><span>很实用的</span></p><p><span>技巧....</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u560" class="ax_default _文本段落">
+        <div id="u560_div" class=""></div>
+        <div id="u560_text" class="text ">
+          <p><span>赞了你的动态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u561" class="ax_default _文本段落">
+        <div id="u561_div" class=""></div>
+        <div id="u561_text" class="text ">
+          <p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';font-size:14px;">&nbsp;</span><span style="font-family:'ArialMT', 'Arial';color:#999999;"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#999999;">回复了你的评论</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u562" class="ax_default image">
+        <img id="u562_img" class="img " src="images/消息中心/u522.jpg"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u563" class="ax_default icon">
+        <img id="u563_img" class="img " src="images/消息中心/u523.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u564" class="ax_default _文本段落">
+        <div id="u564_div" class=""></div>
+        <div id="u564_text" class="text ">
+          <p><span>评论了你的动态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u565" class="ax_default image">
+        <img id="u565_img" class="img " src="images/消息中心/u522.jpg"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u566" class="ax_default icon">
+        <img id="u566_img" class="img " src="images/消息中心/u523.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u567" class="ax_default _文本段落">
+        <div id="u567_div" class=""></div>
+        <div id="u567_text" class="text ">
+          <p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';font-size:14px;">&nbsp;</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#999999;">回复了你的评论</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u568" class="ax_default box_2">
+        <div id="u568_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u569" class="ax_default _文本段落">
+        <div id="u569_div" class=""></div>
+        <div id="u569_text" class="text ">
+          <p><span>嗯嗯，同意内容很干</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u570" class="ax_default _文本段落">
+        <div id="u570_div" class=""></div>
+        <div id="u570_text" class="text ">
+          <p><span>很实用的</span></p><p><span>技巧...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u571" class="ax_default" data-left="1" data-top="200" data-width="373" data-height="27">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u572" class="ax_default shape">
+          <div id="u572_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u573" class="ax_default image2">
+          <img id="u573_img" class="img " src="images/消息中心/u573.png"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
